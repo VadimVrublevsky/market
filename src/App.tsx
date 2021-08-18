@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const App: React.FC = () => {
-  return (
-    <div>
-      Hello Market Place!
-    </div>
-  );
-}
+  return <div>Hello Market Place!</div>;
+};
 
 export default App;
