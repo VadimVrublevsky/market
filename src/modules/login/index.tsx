@@ -10,7 +10,7 @@ const useStyles = makeStyles({
 
 interface LoginProps {}
 
-const Login: React.FC<LoginProps> = () => {
+const Login: React.FunctionComponent<LoginProps> = () => {
   const classes = useStyles();
   return <div className={classes.root}>Login page</div>;
 };

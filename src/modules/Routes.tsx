@@ -9,7 +9,7 @@ import Login from "./login";
 
 interface RoutesProps {}
 
-const Routes: React.FC<RoutesProps> = () => {
+const Routes: React.FunctionComponent<RoutesProps> = () => {
   return (
     <Switch>
       <Route path={loginRoutePath} component={Login} />
